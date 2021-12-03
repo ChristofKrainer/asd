@@ -17,8 +17,7 @@ class Sportwagen extends Auto{
     }
     }
     public function bremsen($aenderung) {
-        if ($this->getGeschwindigkeit() - $aenderung < 0) {
-            $this->setGeschwindigkeit(0);
+        
         }
         
         }
